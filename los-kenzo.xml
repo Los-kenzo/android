@@ -13,5 +13,6 @@
   <project path="vendor/cm" name="los-kenzo/android_vendor_cm" remote="github" revision="lk-7.1" />
   <project path="vendor/cmsdk" name="los-kenzo/cm_platform_sdk" remote="github" revision="lk-7.1" />
   <project path="packages/apps/CMParts" name="los-kenzo/android_packages_apps_CMParts" remote="github" revision="lk-7.1" />
+  <project path="packages/apps/Settings" name="los-kenzo/android_packages_apps_Settings" remote="github" revision="lk-7.1" />
 
 </manifest>
