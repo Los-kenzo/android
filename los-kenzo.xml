@@ -14,5 +14,6 @@
   <project path="vendor/cmsdk" name="los-kenzo/cm_platform_sdk" remote="github" revision="lk-7.1" />
   <project path="packages/apps/CMParts" name="los-kenzo/android_packages_apps_CMParts" remote="github" revision="lk-7.1" />
   <project path="packages/apps/Settings" name="los-kenzo/android_packages_apps_Settings" remote="github" revision="lk-7.1" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="github" revision="nougat-mr1" />
 
 </manifest>
