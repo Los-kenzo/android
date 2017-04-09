@@ -14,6 +14,18 @@
   <project path="vendor/cmsdk" name="los-kenzo/cm_platform_sdk" remote="github" revision="lk-7.1" />
   <project path="packages/apps/CMParts" name="los-kenzo/android_packages_apps_CMParts" remote="github" revision="lk-7.1" />
   <project path="packages/apps/Settings" name="los-kenzo/android_packages_apps_Settings" remote="github" revision="lk-7.1" />
-  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="github" revision="nougat-mr1" />
+  <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="nougat-mr1" />
+  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+  <project path="packages/apps/PackageInstaller" name="los-kenzo/android_packages_apps_PackageInstaller" remote="github" revision="lk-7.1" />
+  <project path="packages/apps/Contacts" name="los-kenzo/android_packages_apps_Contacts" remote="github" revision="lk-7.1" />
+  <project path="packages/apps/PhoneCommon" name="los-kenzo/android_packages_apps_PhoneCommon" remote="github" revision="lk-7.1" />
+  <project path="packages/apps/Dialer" name="los-kenzo/android_packages_apps_Dialer" remote="github" revision="lk-7.1" />
+  <project path="packages/apps/ContactsCommon" name="los-kenzo/android_packages_apps_ContactsCommon" remote="github" revision="lk-7.1" />
+  <project path="packages/apps/ExactCalculator" name="los-kenzo/android_packages_apps_ExactCalculator" remote="github" revision="lk-7.1" />
+  <project path="system/sepolicy" name="los-kenzo/android_system_sepolicy" remote="github" revision="lk-7.1" />
+  <project path="build" name="los-kenzo/android_build" remote="github" revision="lk-7.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="frameworks/native" name="los-kenzo/android_frameworks_native" remote="github" revision="lk-7.1" />
 
 </manifest>
