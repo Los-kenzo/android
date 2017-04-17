@@ -4,17 +4,17 @@
   <!-- los-kenzo trees -->
   <project path="device/xiaomi/kenzo" name="los-kenzo/android_device_xiaomi_kenzo" remote="github" revision="lk-7.1" />
   <project path="device/xiaomi/msm8956-common" name="los-kenzo/android_device_xiaomi_msm8956-common" remote="github" revision="lk-7.1" />
-  <project path="kernel/xiaomi/msm8956" name="umang96/radon-kenzo" remote="github" revision="radon-cm-ng" />
-  <project path="vendor/xiaomi" name="los-kenzo/android_vendor_xiaomi" remote="github" revision="lk-7.1" />
+  <project path="kernel/xiaomi/msm8956" name="umang96/radon-kenzo" remote="github" revision="radon-cm-ng" clone-depth="1" />
+  <project path="vendor/xiaomi" name="los-kenzo/android_vendor_xiaomi" remote="github" revision="lk-7.1" clone-depth="1" />
   <project path="device/qcom/common" name="los-kenzo/android_device_qcom_common" remote="github" revision="lk-7.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-  <project path="frameworks/base" name="los-kenzo/android_frameworks_base" remote="github" revision="lk-7.1" />
+  <project path="frameworks/base" name="los-kenzo/android_frameworks_base" remote="github" revision="lk-7.1" clone-depth="1" />
   <project path="packages/apps/Snap" name="los-kenzo/android_packages_apps_Snap" remote="github" revision="lk-7.1" />
   <project path="vendor/cm" name="los-kenzo/android_vendor_cm" remote="github" revision="lk-7.1" />
   <project path="vendor/cmsdk" name="los-kenzo/cm_platform_sdk" remote="github" revision="lk-7.1" />
   <project path="packages/apps/CMParts" name="los-kenzo/android_packages_apps_CMParts" remote="github" revision="lk-7.1" />
   <project path="packages/apps/Settings" name="los-kenzo/android_packages_apps_Settings" remote="github" revision="lk-7.1" />
-  <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="nougat-mr1" />
+  <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="nougat-mr1" clone-depth="1" />
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/PackageInstaller" name="los-kenzo/android_packages_apps_PackageInstaller" remote="github" revision="lk-7.1" />
   <project path="packages/apps/Contacts" name="los-kenzo/android_packages_apps_Contacts" remote="github" revision="lk-7.1" />
@@ -26,6 +26,6 @@
   <project path="build" name="los-kenzo/android_build" remote="github" revision="lk-7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/native" name="los-kenzo/android_frameworks_native" remote="github" revision="lk-7.1" />
+  <project path="frameworks/native" name="los-kenzo/android_frameworks_native" remote="github" revision="lk-7.1" clone-depth="1" />
 
 </manifest>
