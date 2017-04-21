@@ -8,8 +8,7 @@
   <project path="vendor/xiaomi" name="los-kenzo/android_vendor_xiaomi" remote="github" revision="lk-7.1" clone-depth="1" />
   <project path="device/qcom/common" name="los-kenzo/android_device_qcom_common" remote="github" revision="lk-7.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-  <project path="frameworks/base" name="los-kenzo/android_frameworks_base" remote="github" revision="lk-7.1" clone-depth="1" />
-  <project path="packages/apps/Snap" name="los-kenzo/android_packages_apps_Snap" remote="github" revision="lk-7.1" />
+  <project path="frameworks/base" name="los-kenzo/android_frameworks_base" remote="github" revision="lk-7.1" />
   <project path="vendor/cm" name="los-kenzo/android_vendor_cm" remote="github" revision="lk-7.1" />
   <project path="vendor/cmsdk" name="los-kenzo/cm_platform_sdk" remote="github" revision="lk-7.1" />
   <project path="packages/apps/CMParts" name="los-kenzo/android_packages_apps_CMParts" remote="github" revision="lk-7.1" />
