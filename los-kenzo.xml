@@ -26,5 +26,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/native" name="los-kenzo/android_frameworks_native" remote="github" revision="lk-7.1" clone-depth="1" />
+  <project path="system/core" name="los-kenzo/android_system_core" remote="github" revision="lk-7.1" />
 
 </manifest>
